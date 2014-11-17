@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.1.0.0" absoluteBounds="0, 0, 11, 8.5" name="WaitingTimeModel">
+  <modelMoniker name="/WaitingTimeModel" />
+  <nestedChildShapes>
+    <entityShape Id="a1ba1ea2-ec64-4137-b0d7-4bf8efabcb45" absoluteBounds="3.875, 2.5, 1.5, 0.69479410807291675">
+      <entityMoniker name="/WaitingTimeModel/Theme" />
+      <nestedChildShapes>
+        <elementListCompartment Id="251bf73f-e98e-4900-b34c-07c69b356476" absoluteBounds="3.8900000000000006, 2.91, 1.4700000000000002, 0.18479410807291663" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="c2bd9b39-b844-41b2-be10-d89d3049b018" absoluteBounds="3.875, 5.875, 1.5, 1.4339705403645828">
+      <entityMoniker name="/WaitingTimeModel/Status" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f6fef5ea-4d0e-4857-8ed7-d97817be85f0" absoluteBounds="3.8900000000000006, 6.285, 1.4700000000000002, 0.92397054036458326" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="6b9666b0-4407-4c55-b1dc-5c1415c672fb" absoluteBounds="4, 0.5, 1.5, 0.87958821614583371">
+      <entityMoniker name="/WaitingTimeModel/Park" />
+      <nestedChildShapes>
+        <elementListCompartment Id="55fdd046-9a51-4695-926d-9e72d7868742" absoluteBounds="4.0150000000000006, 0.91000000000000014, 1.4700000000000002, 0.36958821614583337" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <entityShape Id="fd59906e-036f-450d-8dbe-dc1e43379bd4" absoluteBounds="3.875, 4.25, 1.5, 0.87958821614583371">
+      <entityMoniker name="/WaitingTimeModel/Attraction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b5c6c7e4-42f6-4a12-b959-1735fce08c2f" absoluteBounds="3.8900000000000006, 4.66, 1.4700000000000002, 0.36958821614583337" name="Properties" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+    <oneToManyAssociationConnector edgePoints="[(4.625 : 3.19479410807292); (4.625 : 4.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <oneToManyAssociationMoniker Id="684bd611-48ab-464c-aa9f-8e4a3b4151f4" />
+      <relativeChildShapes />
+      <nodes>
+        <entityShapeMoniker Id="a1ba1ea2-ec64-4137-b0d7-4bf8efabcb45" />
+        <entityShapeMoniker Id="fd59906e-036f-450d-8dbe-dc1e43379bd4" />
+      </nodes>
+    </oneToManyAssociationConnector>
+    <oneToManyAssociationConnector edgePoints="[(4.6875 : 1.37958821614583); (4.6875 : 2.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <oneToManyAssociationMoniker Id="52caaae6-3939-4a52-a6de-3882fc9a45d0" />
+      <relativeChildShapes />
+      <nodes>
+        <entityShapeMoniker Id="6b9666b0-4407-4c55-b1dc-5c1415c672fb" />
+        <entityShapeMoniker Id="a1ba1ea2-ec64-4137-b0d7-4bf8efabcb45" />
+      </nodes>
+    </oneToManyAssociationConnector>
+    <oneToManyAssociationConnector edgePoints="[(4.625 : 5.12958821614583); (4.625 : 5.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <oneToManyAssociationMoniker Id="b24ba2ec-ee7a-4a62-8bb1-887f56993420" />
+      <relativeChildShapes />
+      <nodes>
+        <entityShapeMoniker Id="fd59906e-036f-450d-8dbe-dc1e43379bd4" />
+        <entityShapeMoniker Id="c2bd9b39-b844-41b2-be10-d89d3049b018" />
+      </nodes>
+    </oneToManyAssociationConnector>
+  </nestedChildShapes>
+</minimalLanguageDiagram>

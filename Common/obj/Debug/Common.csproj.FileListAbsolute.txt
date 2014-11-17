@@ -1,0 +1,9 @@
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\bin\Debug\Common.pdb
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\obj\Debug\Common.pdb
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\bin\Debug\Mindscape.LightSpeed.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\bin\Debug\Mindscape.LightSpeed.Linq.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\bin\Debug\Mindscape.LightSpeed.xml
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\bin\Debug\Mindscape.LightSpeed.Linq.xml
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\bin\Debug\Common.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\Common\obj\Debug\Common.dll

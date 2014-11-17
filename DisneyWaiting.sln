@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisneyWaitingBatch", "DisneyWaitingBatch\DisneyWaitingBatch.csproj", "{25F965DB-A366-4066-9BDB-AEF034FF46A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E7201CEE-3F1D-40EA-ABF8-503E6B2BF916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KurosukeDisneyAPI", "KurosukeDisneyAPI\KurosukeDisneyAPI.csproj", "{71B82D84-9C39-4C7A-A44C-0BEB83EF966B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25F965DB-A366-4066-9BDB-AEF034FF46A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F965DB-A366-4066-9BDB-AEF034FF46A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F965DB-A366-4066-9BDB-AEF034FF46A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F965DB-A366-4066-9BDB-AEF034FF46A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7201CEE-3F1D-40EA-ABF8-503E6B2BF916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7201CEE-3F1D-40EA-ABF8-503E6B2BF916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7201CEE-3F1D-40EA-ABF8-503E6B2BF916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7201CEE-3F1D-40EA-ABF8-503E6B2BF916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B82D84-9C39-4C7A-A44C-0BEB83EF966B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B82D84-9C39-4C7A-A44C-0BEB83EF966B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B82D84-9C39-4C7A-A44C-0BEB83EF966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B82D84-9C39-4C7A-A44C-0BEB83EF966B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

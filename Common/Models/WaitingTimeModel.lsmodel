@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<model xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.1.0.0" name="WaitingTimeModel" targetNamespace="Common.Models" databaseProvider="SqlServer2008" connectionString="Data Source=(localdb)\ProjectsV12;Initial Catalog=DisneyWaiting;Integrated Security=True;Pooling=False" pluralizedInDatabase="false" mediumTrustCompatibility="false" xmlns="http://namespaces.mindscape.co.nz/lightspeed">
+  <entities>
+    <entity name="Theme" identityType="Int32" cacheExpiry="0" identityMethod="KeyTable">
+      <entityProperties>
+        <entityProperty name="ThemeName" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+      <oneToManyAssociations>
+        <oneToManyAssociation Id="684bd611-48ab-464c-aa9f-8e4a3b4151f4" collectionName="Attractions" backreferenceName="Theme" isNullable="false">
+          <entityMoniker name="/WaitingTimeModel/Attraction" />
+        </oneToManyAssociation>
+      </oneToManyAssociations>
+    </entity>
+    <entity name="Status" identityType="Int32" cacheExpiry="0" identityMethod="KeyTable">
+      <entityProperties>
+        <entityProperty name="UpdateDateTime" dataType="DateTime" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+        <entityProperty name="UpdateString" isNullable="true" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+        <entityProperty name="WaitTime" dataType="Int32" isNullable="true" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Run" dataType="Boolean" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+        <entityProperty name="RunString" privateSetter="false" />
+      </entityProperties>
+    </entity>
+    <entity name="Park" identityType="Int32" cacheExpiry="0" identityMethod="KeyTable">
+      <entityProperties>
+        <entityProperty name="WaitingTimeUrl" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+        <entityProperty name="ParkName" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+      </entityProperties>
+      <oneToManyAssociations>
+        <oneToManyAssociation Id="52caaae6-3939-4a52-a6de-3882fc9a45d0" collectionName="Themes" backreferenceName="Park" isNullable="false">
+          <entityMoniker name="/WaitingTimeModel/Theme" />
+        </oneToManyAssociation>
+      </oneToManyAssociations>
+    </entity>
+    <entity name="Attraction" identityType="Int32" cacheExpiry="0" identityMethod="KeyTable">
+      <entityProperties>
+        <entityProperty name="Title" privateSetter="false">
+          <validations>
+            <presenceValidation />
+          </validations>
+        </entityProperty>
+        <entityProperty name="Description" isNullable="true" privateSetter="false" />
+      </entityProperties>
+      <oneToManyAssociations>
+        <oneToManyAssociation Id="b24ba2ec-ee7a-4a62-8bb1-887f56993420" collectionName="Statuses" backreferenceName="Attraction" isNullable="false">
+          <entityMoniker name="/WaitingTimeModel/Status" />
+        </oneToManyAssociation>
+      </oneToManyAssociations>
+    </entity>
+  </entities>
+</model>
