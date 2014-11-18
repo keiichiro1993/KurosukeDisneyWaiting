@@ -22,3 +22,11 @@ C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWait
 C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\Mindscape.LightSpeed.xml
 C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\Mindscape.LightSpeed.Linq.xml
 C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\Common.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\System.Web.Http.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\System.Web.Http.xml
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\ja\System.Net.Http.Formatting.resources.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\DisneyWaitingBatch\bin\Debug\ja\System.Web.Http.resources.dll

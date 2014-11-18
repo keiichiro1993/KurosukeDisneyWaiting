@@ -7,12 +7,15 @@ using System.Web.Http;
 using Common.Models;
 using Mindscape.LightSpeed;
 using Mindscape.LightSpeed.Linq;
+using WebApi.OutputCache.V2;
 
 namespace KurosukeDisneyAPI.Controllers
 {
+	[CacheOutput(ClientTimeSpan = 60, ServerTimeSpan = 60)]
     public class AttractionsController : ApiController
     {
 		/*アトラクション（最新の待ち時間込）の一覧を返す。*/
+		[]
 		public List<HTMLAttraction> GetAttractions() 
 		{
 			var context = new LightSpeedContext<WaitingTimeModelUnitOfWork>("WaitingTimeModel");
