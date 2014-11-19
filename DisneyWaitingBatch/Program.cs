@@ -36,7 +36,7 @@ namespace DisneyWaitingBatch
 							status.AttractionId = attraction.Id;
 							status.Run = false;
 							status.RunString = "閉園しています。";
-							status.UpdateString = "取得できません";
+							status.UpdateString = "閉園しています";
 							TimeZoneInfo jst = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
 							status.UpdateDateTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.Now.ToUniversalTime(), jst);
 							status.WaitTime = 0;
