@@ -19,7 +19,6 @@ namespace KurosukeDisneyAPI
 
             // Web API ルート
             config.MapHttpAttributeRoutes();
-
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

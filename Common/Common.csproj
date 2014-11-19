@@ -51,7 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\HTMLAttraction.cs" />
+    <Compile Include="Models\HTMLPark.cs" />
     <Compile Include="Models\HTMLStatus.cs" />
+    <Compile Include="Models\HTMLTheme.cs" />
     <Compile Include="Models\WaitingTimeModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

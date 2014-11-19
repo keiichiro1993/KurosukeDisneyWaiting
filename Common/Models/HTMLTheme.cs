@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Common.Models
 {
-	class HTMLTheme
+	public class HTMLTheme
 	{
+		public HTMLTheme(Theme theme)
+		{
+			this.ThemeName = theme.ThemeName;
+		}
+		public string ThemeName { get; set; }
+		public List<HTMLAttraction> Attractions { get; set; }
 	}
 }

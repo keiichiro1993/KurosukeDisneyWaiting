@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Common.Models
 {
-	class HTMLPark
+	public class HTMLPark
 	{
+		public HTMLPark(Park park)
+		{
+			this.WaitingTimeUrl = park.WaitingTimeUrl;
+			this.ParkName = park.ParkName;
+		}
+		public string WaitingTimeUrl { get; set; }
+		public string ParkName { get; set; }
+		public List<HTMLTheme> Themes { get; set; }
 	}
 }

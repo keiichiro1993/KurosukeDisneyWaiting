@@ -20,7 +20,7 @@ namespace DisneyWaitingBatch.Utils
 			{
 				page = htmlWeb.Load(url);
 			}
-			catch(System.Net.WebException ex) //ネットワークに接続できなかったとき
+			catch (System.Net.WebException ex) //ネットワークに接続できなかったとき
 			{
 				Console.WriteLine(ex.Message);
 				return null;
@@ -53,11 +53,15 @@ namespace DisneyWaitingBatch.Utils
 
 					var time = item.SelectSingleNode("div[@class='time']");
 					string waitTime = "";
+					status.waitTime = 0;
 					if (time != null)
 					{
 						waitTime = time.SelectSingleNode("p[@class='waitTime']").InnerText;
 						waitTime = waitTime.Replace("分", "");
-						status.waitTime = int.Parse(waitTime);
+						if (waitTime != "")
+						{
+							status.waitTime = int.Parse(waitTime);
+						}
 					}
 
 					attraction.title = title;
