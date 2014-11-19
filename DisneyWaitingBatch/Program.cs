@@ -27,10 +27,26 @@ namespace DisneyWaitingBatch
 					Console.WriteLine(park.WaitingTimeUrl);
 
 					var attractionList = Utils.ParseUtil.ParseWaitingPage(park);
-					if (attractionList == null)//パーサー内でエラーが起きているので終了する。
+					if (attractionList == null)//パーサー内でエラーが起きているor閉園中と思われるので終了する。（今はとりあえず閉園中ということにする。）
 					{
-						Console.WriteLine("終了します。");
-						return;
+						/*すべてのアトラクションを閉園の扱いにする*/
+						foreach (var attraction in attractions)
+						{
+							var status = new Status();
+							status.AttractionId = attraction.Id;
+							status.Run = false;
+							status.RunString = "閉園しています。";
+							status.UpdateString = "取得できません";
+							TimeZoneInfo jst = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
+							status.UpdateDateTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.Now.ToUniversalTime(), jst);
+							status.WaitTime = 0;
+							uow.Add(status);
+						}
+						uow.SaveChanges();
+
+
+						Console.WriteLine("エラーもしくは閉園中です。中止します。");
+						continue;
 					}
 
 					foreach (HTMLAttraction htmlAttraction in attractionList)

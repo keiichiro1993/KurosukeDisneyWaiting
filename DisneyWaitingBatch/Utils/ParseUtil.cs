@@ -29,6 +29,12 @@ namespace DisneyWaitingBatch.Utils
 			var wait = page.GetElementbyId("wait");
 			var themes = wait.SelectNodes("section[@class='theme open']");
 			var attractionList = new List<HTMLAttraction>();
+
+			if (themes == null)//閉園中と思われる（適当）　また実装できたらちゃんと閉園中の文章を検出して対応したい。
+			{
+				return null;
+			}
+
 			foreach (var theme in themes)
 			{
 				/*各テーマエリアごとの処理*/
