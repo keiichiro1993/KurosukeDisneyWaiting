@@ -32,15 +32,19 @@ namespace DisneyWaitingBatch
 						/*すべてのアトラクションを閉園の扱いにする*/
 						foreach (var attraction in attractions)
 						{
-							var status = new Status();
-							status.AttractionId = attraction.Id;
-							status.Run = false;
-							status.RunString = "閉園しています。";
-							status.UpdateString = "閉園しています";
-							TimeZoneInfo jst = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
-							status.UpdateDateTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.Now.ToUniversalTime(), jst);
-							status.WaitTime = 0;
-							uow.Add(status);
+							var existStatus = uow.Statuses.Where(x => x.AttractionId == attraction.Id).OrderByDescending(x => x.UpdateDateTime).FirstOrDefault();
+							if (existStatus.UpdateString != "閉園しています")
+							{
+								var status = new Status();
+								status.AttractionId = attraction.Id;
+								status.Run = false;
+								status.RunString = "閉園しています。";
+								status.UpdateString = "閉園しています";
+								TimeZoneInfo jst = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
+								status.UpdateDateTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.Now.ToUniversalTime(), jst);
+								status.WaitTime = 0;
+								uow.Add(status);
+							}
 						}
 						uow.SaveChanges();
 
