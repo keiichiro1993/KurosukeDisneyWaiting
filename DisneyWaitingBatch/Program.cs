@@ -79,12 +79,12 @@ namespace DisneyWaitingBatch
 							uow.Add(attraction);
 						}
 
-						//statusに値が入った場合は、前回の取得から待ち時間が更新されていない。
+						//statusにの最後の値から、更新時間もしくは運営状況（待ち時間が更新されないアトラクション（ショップ系）対策）が変わったときのみ更新
 						var status = uow.Statuses
-							.Where(x => (x.Attraction.Id == attraction.Id && x.UpdateString == htmlAttraction.status.updateString))
+							.Where(x => x.Attraction.Id == attraction.Id)
 							.OrderByDescending(x => x.UpdateDateTime)
 							.FirstOrDefault();
-						if (status == null)
+						if (status.UpdateString != htmlAttraction.status.updateString  || status.RunString != htmlAttraction.status.runString)
 						{
 							status = new Status();
 							status.UpdateString = htmlAttraction.status.updateString;
