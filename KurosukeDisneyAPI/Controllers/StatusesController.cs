@@ -31,15 +31,22 @@ namespace KurosukeDisneyAPI.Controllers
 			}
 			return htmlStatuses;
 		}
-		public List<HTMLStatus> GetStatuses(int attraction_id)//未実装
+		public List<HTMLStatus> GetStatusesToday(int id)//未実装
 		{
 			var context = new LightSpeedContext<WaitingTimeModelUnitOfWork>("WaitingTimeModel");
+			var htmlStatuses = new List<HTMLStatus>();
 			using (var uow = context.CreateUnitOfWork())
 			{
-				var statuses = uow.Statuses.Where(x => x.AttractionId == attraction_id).OrderByDescending(x => x.UpdateDateTime).Take(10);
-
+				TimeZoneInfo jst = TimeZoneInfo.FindSystemTimeZoneById("Tokyo Standard Time");
+				var now = TimeZoneInfo.ConvertTimeFromUtc(DateTime.Now.ToUniversalTime(), jst);
+				var statuses = uow.Statuses.Where(x => x.AttractionId == id).Where(x => (x.UpdateDateTime.Year == now.Year && x.UpdateDateTime.Date == now.Date)).OrderByDescending(x => x.UpdateDateTime).ToArray();
+				foreach (var status in statuses)
+				{
+					var htmlStatus = new HTMLStatus(status);
+					htmlStatuses.Add(htmlStatus);
+				}
 			}
-			return new List<HTMLStatus>();
+			return htmlStatuses;
 		}
 	}
 }

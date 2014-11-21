@@ -84,7 +84,7 @@ namespace DisneyWaitingBatch
 							.Where(x => x.Attraction.Id == attraction.Id)
 							.OrderByDescending(x => x.UpdateDateTime)
 							.FirstOrDefault();
-						if (status.UpdateString != htmlAttraction.status.updateString  || status.RunString != htmlAttraction.status.runString)
+						if (status.UpdateString != htmlAttraction.status.updateString || status.RunString != htmlAttraction.status.runString)
 						{
 							status = new Status();
 							status.UpdateString = htmlAttraction.status.updateString;
@@ -96,10 +96,9 @@ namespace DisneyWaitingBatch
 							uow.Add(status);
 							Console.WriteLine(status.Attraction.Title + ":" + status.WaitTime.ToString());
 						}
-						uow.SaveChanges();
 					}
-
 				}
+				uow.SaveChanges();
 			}
 		}
 	}
