@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KurosukeDisneyAPI", "Kurosu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApp", "PhoneApp\PhoneApp.csproj", "{11EFF988-8186-44C8-A7F7-853A6777ADBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneCommon", "PhoneCommon\PhoneCommon.csproj", "{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,20 @@ Global
 		{11EFF988-8186-44C8-A7F7-853A6777ADBB}.Release|x86.ActiveCfg = Release|x86
 		{11EFF988-8186-44C8-A7F7-853A6777ADBB}.Release|x86.Build.0 = Release|x86
 		{11EFF988-8186-44C8-A7F7-853A6777ADBB}.Release|x86.Deploy.0 = Release|x86
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Debug|ARM.Build.0 = Debug|ARM
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Debug|x86.ActiveCfg = Debug|x86
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Debug|x86.Build.0 = Debug|x86
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Release|ARM.ActiveCfg = Release|ARM
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Release|ARM.Build.0 = Release|ARM
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Release|x64.ActiveCfg = Release|Any CPU
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Release|x86.ActiveCfg = Release|x86
+		{E63B854D-B35B-4CAD-A1B9-7CF8AA30D3AC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

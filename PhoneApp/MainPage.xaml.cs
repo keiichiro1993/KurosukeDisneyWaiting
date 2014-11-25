@@ -12,37 +12,72 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Collections.ObjectModel;
+using System.Threading.Tasks;
+using Windows.UI.Popups;
+using PhoneCommon.Models;
 
 // 空白ページのアイテム テンプレートについては、http://go.microsoft.com/fwlink/?LinkId=391641 を参照してください
 
 namespace PhoneApp
 {
-    /// <summary>
-    /// それ自体で使用できる空白ページまたはフレーム内に移動できる空白ページ。
-    /// </summary>
-    public sealed partial class MainPage : Page
-    {
-        public MainPage()
-        {
-            this.InitializeComponent();
+	/// <summary>
+	/// それ自体で使用できる空白ページまたはフレーム内に移動できる空白ページ。
+	/// </summary>
+	public sealed partial class MainPage : Page
+	{
+		private ObservableCollection<HTMLPark> parks;
+		private Windows.ApplicationModel.Resources.ResourceLoader resourceLoader;
+		public MainPage()
+		{
+			this.InitializeComponent();
 
-            this.NavigationCacheMode = NavigationCacheMode.Required;
-        }
+			this.NavigationCacheMode = NavigationCacheMode.Required;
 
-        /// <summary>
-        /// このページがフレームに表示されるときに呼び出されます。
-        /// </summary>
-        /// <param name="e">このページにどのように到達したかを説明するイベント データ。
-        /// このプロパティは、通常、ページを構成するために使用します。</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            // TODO: ここに表示するページを準備します。
+			this.DataContext = parks;
 
-            // TODO: アプリケーションに複数のページが含まれている場合は、次のイベントの
-            // 登録によりハードウェアの戻るボタンを処理していることを確認してください:
-            // Windows.Phone.UI.Input.HardwareButtons.BackPressed イベント。
-            // 一部のテンプレートで指定された NavigationHelper を使用している場合は、
-            // このイベントが自動的に処理されます。
-        }
-    }
+			resourceLoader = new Windows.ApplicationModel.Resources.ResourceLoader();
+		}
+
+		/// <summary>
+		/// このページがフレームに表示されるときに呼び出されます。
+		/// </summary>
+		/// <param name="e">このページにどのように到達したかを説明するイベント データ。
+		/// このプロパティは、通常、ページを構成するために使用します。</param>
+		protected override void OnNavigatedTo(NavigationEventArgs e)
+		{
+			// TODO: ここに表示するページを準備します。
+
+			GetAttractions();
+
+
+			// TODO: アプリケーションに複数のページが含まれている場合は、次のイベントの
+			// 登録によりハードウェアの戻るボタンを処理していることを確認してください:
+			// Windows.Phone.UI.Input.HardwareButtons.BackPressed イベント。
+			// 一部のテンプレートで指定された NavigationHelper を使用している場合は、
+			// このイベントが自動的に処理されます。
+		}
+
+		private async void GetAttractions()
+		{
+			ObservableCollection<HTMLPark> obj = null;
+			using (var client = new HttpClient())
+			{
+				string json;
+				try
+				{
+					json = await client.GetStringAsync("http://kurosukeapi.azurewebsites.net/api/attractions");
+					obj = JsonConvert.DeserializeObject<ObservableCollection<HTMLPark>>(json);
+				}
+				catch (HttpRequestException ex)
+				{
+					var msg = new MessageDialog(resourceLoader.GetString("NetWorkErr") + ": " + ex.Message, resourceLoader.GetString("ErrHeader"));
+					msg.ShowAsync();
+				}
+			}
+			parks = obj;
+		}
+	}
 }

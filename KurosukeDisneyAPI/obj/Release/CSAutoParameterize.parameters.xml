@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WaitingTimeConnection-Web.config Connection String" description="WaitingTimeConnection データベースに接続するためにアプリケーションによって web.config で使用される接続文字列。" defaultValue="Server=tcp:va69kk0odq.database.windows.net,1433;Database=DisneyWaiting;User ID=kurosuke@va69kk0odq;Password=DisneyWaiting2014;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Kurosuke\\Documents\\Visual\ Studio\ 2013\\Projects\\DisneyWaiting\\KurosukeDisneyAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WaitingTimeConnection']/@connectionString" />
+  </parameter>
+  <parameter name="WaitingTimeConnectionSub-Web.config Connection String" description="WaitingTimeConnectionSub データベースに接続するためにアプリケーションによって web.config で使用される接続文字列。" defaultValue="Data Source=(localdb)\ProjectsV12;Initial Catalog=DisneyWaiting;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Kurosuke\\Documents\\Visual\ Studio\ 2013\\Projects\\DisneyWaiting\\KurosukeDisneyAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WaitingTimeConnectionSub']/@connectionString" />
+  </parameter>
+</parameters>

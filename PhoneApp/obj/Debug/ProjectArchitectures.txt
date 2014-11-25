@@ -1,0 +1,2 @@
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\PhoneApp.csproj;neutral
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\PhoneCommon.csproj;neutral
