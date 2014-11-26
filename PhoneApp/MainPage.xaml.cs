@@ -28,7 +28,7 @@ namespace PhoneApp
 	/// </summary>
 	public sealed partial class MainPage : Page
 	{
-		private ObservableCollection<HTMLPark> parks;
+		private WaitingTimeViewModel viewModel = new WaitingTimeViewModel();
 		private Windows.ApplicationModel.Resources.ResourceLoader resourceLoader;
 		public MainPage()
 		{
@@ -36,7 +36,7 @@ namespace PhoneApp
 
 			this.NavigationCacheMode = NavigationCacheMode.Required;
 
-			this.DataContext = parks;
+			this.DataContext = viewModel;
 
 			resourceLoader = new Windows.ApplicationModel.Resources.ResourceLoader();
 		}
@@ -52,7 +52,6 @@ namespace PhoneApp
 
 			GetAttractions();
 
-
 			// TODO: アプリケーションに複数のページが含まれている場合は、次のイベントの
 			// 登録によりハードウェアの戻るボタンを処理していることを確認してください:
 			// Windows.Phone.UI.Input.HardwareButtons.BackPressed イベント。
@@ -62,14 +61,14 @@ namespace PhoneApp
 
 		private async void GetAttractions()
 		{
-			ObservableCollection<HTMLPark> obj = null;
 			using (var client = new HttpClient())
 			{
-				string json;
 				try
 				{
-					json = await client.GetStringAsync("http://kurosukeapi.azurewebsites.net/api/attractions");
-					obj = JsonConvert.DeserializeObject<ObservableCollection<HTMLPark>>(json);
+					var json = await client.GetStringAsync("http://kurosukeapi.azurewebsites.net/api/attractions");
+					var obj = JsonConvert.DeserializeObject<ObservableCollection<HTMLPark>>(json);
+					viewModel.TokyoDisneyLand = (HTMLPark)obj.Where(x => x.ParkName == "東京ディズニーランド").FirstOrDefault();
+					viewModel.TokyoDisneySea = (HTMLPark)obj.Where(x => x.ParkName == "東京ディズニーシー").FirstOrDefault();
 				}
 				catch (HttpRequestException ex)
 				{
@@ -77,7 +76,47 @@ namespace PhoneApp
 					msg.ShowAsync();
 				}
 			}
-			parks = obj;
+
+		}
+
+		private void AttractionTapped(object sender, TappedRoutedEventArgs e)
+		{
+			var htmlAttraction = (HTMLAttraction)((Border)sender).DataContext;
+			this.Frame.Navigate(typeof(DetailPage), htmlAttraction);
+		}
+
+		private async void ReloadButtonTapped(object sender, TappedRoutedEventArgs e)
+		{
+			using (var client = new HttpClient())
+			{
+				try
+				{
+					var json = await client.GetStringAsync("http://kurosukeapi.azurewebsites.net/api/statuses/now");
+					var obj = JsonConvert.DeserializeObject<ObservableCollection<HTMLStatus>>(json);
+					FindNewStatus(obj, viewModel.TokyoDisneyLand);
+					FindNewStatus(obj, viewModel.TokyoDisneySea);
+				}
+				catch (HttpRequestException ex)
+				{
+					var msg = new MessageDialog(resourceLoader.GetString("NetWorkErr") + ": " + ex.Message, resourceLoader.GetString("ErrHeader"));
+					msg.ShowAsync();
+				}
+			}
+		}
+
+		private void FindNewStatus(ObservableCollection<HTMLStatus> obj, HTMLPark park)
+		{
+			foreach (var theme in park.Themes)
+			{
+				foreach (var attraction in theme.Attractions)
+				{
+					var newStatus = obj.Where(x => x.attractionId == attraction.status.attractionId).FirstOrDefault();
+					if (newStatus != null)
+					{
+						attraction.status = newStatus;
+					}
+				}
+			}
 		}
 	}
 }

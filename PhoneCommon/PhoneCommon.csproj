@@ -79,10 +79,12 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Models\DetailPageViewModel.cs" />
     <Compile Include="Models\HTMLAttraction.cs" />
     <Compile Include="Models\HTMLPark.cs" />
     <Compile Include="Models\HTMLStatus.cs" />
     <Compile Include="Models\HTMLTheme.cs" />
+    <Compile Include="Models\WaitingTimeViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

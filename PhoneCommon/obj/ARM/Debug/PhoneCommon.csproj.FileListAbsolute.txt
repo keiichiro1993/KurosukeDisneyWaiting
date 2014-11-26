@@ -1,0 +1,16 @@
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\bin\ARM\Debug\PhoneCommon.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\bin\ARM\Debug\PhoneCommon.pdb
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\bin\ARM\Debug\PhoneCommon.pri
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\PhoneCommon.dll
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\PhoneCommon.pdb
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\priconfig.xml
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\layout.resfiles
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\resources.resfiles
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\pri.resfiles
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\qualifiers.txt
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneCommon\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt

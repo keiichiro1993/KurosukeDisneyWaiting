@@ -1,7 +1,9 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\phoneapp\obj\debug\intermediatexaml\phoneapp.exe" HashGuid="922e613b-73ea-bea7-6856-e0348afc5ff7" />
+    <LocalAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\phoneapp\obj\debug\intermediatexaml\phoneapp.exe" HashGuid="6eb09b65-4f67-be71-50f3-1d8d0329fb5a" />
     <ReferenceAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\packages\newtonsoft.json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="9e796421-3b84-3ec5-6e39-cb6d41d020b7" />
-    <ReferenceAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\phonecommon\bin\debug\phonecommon.dll" HashGuid="4dbf63fb-d609-c71f-beef-d5b747639822" />
+    <ReferenceAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\phonecommon\bin\debug\phonecommon.dll" HashGuid="f3d1f6dd-6a1b-5422-6924-6b7a832f1445" />
+    <ReferenceAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\packages\winrtxamltoolkit.controls.datavisualization.windowsphone.1.7.4.0\lib\wpa\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="dbd789a8-f25d-5ee0-4d54-2ce5c1ba056a" />
+    <ReferenceAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\packages\winrtxamltoolkit.windowsphone.1.7.4.0\lib\wpa\winrtxamltoolkit.dll" HashGuid="8e147034-4cfb-5f8a-fc1c-4c177ce2e063" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

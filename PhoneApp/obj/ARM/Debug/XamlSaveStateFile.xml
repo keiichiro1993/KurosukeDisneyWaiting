@@ -1,0 +1,7 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\phoneapp\obj\arm\debug\intermediatexaml\phoneapp.exe" HashGuid="82b7472f-70f5-47cd-039a-453f9ba5d9d3" />
+    <ReferenceAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\packages\newtonsoft.json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="9e796421-3b84-3ec5-6e39-cb6d41d020b7" />
+    <ReferenceAssembly PathName="c:\users\kurosuke\documents\visual studio 2013\projects\disneywaiting\phonecommon\bin\arm\debug\phonecommon.dll" HashGuid="c1cc1456-ee18-9cc5-0db7-22712ea7d94f" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

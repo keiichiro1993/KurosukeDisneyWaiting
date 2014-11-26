@@ -31,7 +31,7 @@ namespace KurosukeDisneyAPI.Controllers
 			}
 			return htmlStatuses;
 		}
-		public List<HTMLStatus> GetStatusesToday(int id)//未実装
+		public List<HTMLStatus> GetStatusesToday(int id)
 		{
 			var context = new LightSpeedContext<WaitingTimeModelUnitOfWork>("WaitingTimeModel");
 			var htmlStatuses = new List<HTMLStatus>();

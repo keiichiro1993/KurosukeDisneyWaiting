@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DetailPageTitle.Text" xml:space="preserve">
+    <value>グラフ</value>
+  </data>
   <data name="ErrHeader" xml:space="preserve">
     <value>おや、なにかがおかしいようです。</value>
     <comment>エラーが起きた時のダイアログのタイトル</comment>
@@ -127,5 +130,14 @@
   <data name="NetWorkErr" xml:space="preserve">
     <value>インターネットに接続されているか確認してください。</value>
     <comment>ネットワークエラーが起きた時のダイアログの本文</comment>
+  </data>
+  <data name="ReloadButton.Content" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="section01.Text" xml:space="preserve">
+    <value>東京ディズニーランド</value>
+  </data>
+  <data name="section02.Text" xml:space="preserve">
+    <value>東京ディズニーシー</value>
   </data>
 </root>
