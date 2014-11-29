@@ -33,6 +33,12 @@ namespace KurosukeDisneyAPI
 			);
 
 			config.Routes.MapHttpRoute(
+				name: "PastStatuses",
+				routeTemplate: "api/statuses/past/{id}/{days}",
+				defaults: new { controller = "Statuses", action = "GetStatuses" }
+			);
+
+			config.Routes.MapHttpRoute(
 				name: "DefaultApi",
 				routeTemplate: "api/{controller}/{id}",
 				defaults: new { id = RouteParameter.Optional }

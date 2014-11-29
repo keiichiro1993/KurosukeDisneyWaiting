@@ -10,20 +10,8 @@ namespace PhoneCommon.Models
 {
 	public class DetailPageViewModel : INotifyPropertyChanged
 	{
-		private ObservableCollection<HTMLStatus> _statuses = new ObservableCollection<HTMLStatus>();
 		private string _attractionTitle = "";
-		public ObservableCollection<HTMLStatus> Statuses
-		{
-			get { return this._statuses; }
-			set
-			{
-				if (_statuses != value)
-				{
-					_statuses = value;
-					RaisePropertyChanged("Statuses");
-				}
-			}
-		}
+
 		public string AttractionTitle
 		{
 			get { return this._attractionTitle; }

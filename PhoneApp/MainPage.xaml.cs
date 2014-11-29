@@ -18,6 +18,7 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Windows.UI.Popups;
 using PhoneCommon.Models;
+using Windows.UI.ViewManagement;
 
 // 空白ページのアイテム テンプレートについては、http://go.microsoft.com/fwlink/?LinkId=391641 を参照してください
 
@@ -61,6 +62,11 @@ namespace PhoneApp
 
 		private async void GetAttractions()
 		{
+			//ProgressIndicatorを表示したいがため
+			StatusBar statusBar = StatusBar.GetForCurrentView();
+			statusBar.ProgressIndicator.Text = "Loading...";
+			await statusBar.ProgressIndicator.ShowAsync();
+
 			using (var client = new HttpClient())
 			{
 				try
@@ -73,10 +79,11 @@ namespace PhoneApp
 				catch (HttpRequestException ex)
 				{
 					var msg = new MessageDialog(resourceLoader.GetString("NetWorkErr") + ": " + ex.Message, resourceLoader.GetString("ErrHeader"));
+					statusBar.ProgressIndicator.HideAsync();
 					msg.ShowAsync();
 				}
 			}
-
+			await statusBar.ProgressIndicator.HideAsync();
 		}
 
 		private void AttractionTapped(object sender, TappedRoutedEventArgs e)
@@ -87,6 +94,11 @@ namespace PhoneApp
 
 		private async void ReloadButtonTapped(object sender, TappedRoutedEventArgs e)
 		{
+			//ProgressIndicatorを表示したいがため
+			StatusBar statusBar = StatusBar.GetForCurrentView();
+			statusBar.ProgressIndicator.Text = "Loading...";
+			await statusBar.ProgressIndicator.ShowAsync();
+
 			using (var client = new HttpClient())
 			{
 				try
@@ -99,9 +111,11 @@ namespace PhoneApp
 				catch (HttpRequestException ex)
 				{
 					var msg = new MessageDialog(resourceLoader.GetString("NetWorkErr") + ": " + ex.Message, resourceLoader.GetString("ErrHeader"));
+					statusBar.ProgressIndicator.HideAsync();
 					msg.ShowAsync();
 				}
 			}
+			await statusBar.ProgressIndicator.HideAsync();
 		}
 
 		private void FindNewStatus(ObservableCollection<HTMLStatus> obj, HTMLPark park)

@@ -19,6 +19,8 @@ using System.Collections.ObjectModel;
 using Windows.UI.Popups;
 using WinRTXamlToolkit.Controls.DataVisualization.Charting;
 using PhoneApp.Common;
+using Windows.UI;
+using Windows.UI.ViewManagement;
 
 
 // 空白ページのアイテム テンプレートについては、http://go.microsoft.com/fwlink/?LinkID=390556 を参照してください
@@ -33,7 +35,7 @@ namespace PhoneApp
 		private DetailPageViewModel viewModel = new DetailPageViewModel();
 		private Windows.ApplicationModel.Resources.ResourceLoader resourceLoader;
 		private NavigationHelper navigationHelper;
-		private ISeries currentLine;
+		private List<ISeries> currentLines;
 		private HTMLAttraction currentAttraction;
 		public DetailPage()
 		{
@@ -68,10 +70,22 @@ namespace PhoneApp
 
 		private async void GetStatuses(HTMLAttraction attraction)
 		{
+			//ProgressIndicatorを表示したいがため
+			StatusBar statusBar = StatusBar.GetForCurrentView();
+			statusBar.ProgressIndicator.Text = "Loading...";
+			await statusBar.ProgressIndicator.ShowAsync();
 
-			if (currentLine != null)
+			if (currentLines != null)
 			{
-				ChartSpace.Series.Remove(currentLine);
+				foreach (var line in currentLines)
+				{
+					ChartSpace.Series.Remove(line);
+				}
+				currentLines = null;
+			}
+			if (currentLines == null)
+			{
+				currentLines = new List<ISeries>();
 			}
 			int attractionId = attraction.status.attractionId;
 			using (var client = new HttpClient())
@@ -80,23 +94,36 @@ namespace PhoneApp
 				{
 					var json = await client.GetStringAsync("http://kurosukeapi.azurewebsites.net/api/statuses/today/" + attractionId.ToString());
 					var obj = JsonConvert.DeserializeObject<ObservableCollection<HTMLStatus>>(json);
-					viewModel.Statuses = obj;
 					var line = new LineSeries();
-					line.ItemsSource = viewModel.Statuses.OrderBy(x => x.update);
+					line.ItemsSource = obj.OrderBy(x => x.update);
 					line.DependentValuePath = "waitTime";
 					line.IndependentValuePath = "update";
 					line.BorderThickness = new Thickness(2);
 					line.Title = "Today";
+					line.BorderBrush = new SolidColorBrush(Colors.LightBlue);
 					ChartSpace.Series.Add(line);
-					currentLine = line;
+					currentLines.Add(line);
+
+					var json2 = await client.GetStringAsync("http://kurosukeapi.azurewebsites.net/api/statuses/past/" + attractionId.ToString() + "/1/");
+					var obj2 = JsonConvert.DeserializeObject<ObservableCollection<HTMLStatus>>(json2);
+					var line2 = new LineSeries();
+					line2.ItemsSource = obj2.OrderBy(x => x.update);
+					line2.DependentValuePath = "waitTime";
+					line2.IndependentValuePath = "update";
+					line2.BorderThickness = new Thickness(2);
+					line2.BorderBrush = new SolidColorBrush(Colors.Orange);
+					line2.Title = "Yesterday";
+					ChartSpace.Series.Add(line2);
+					currentLines.Add(line2);
 				}
 				catch (HttpRequestException ex)
 				{
 					var msg = new MessageDialog(resourceLoader.GetString("NetWorkErr") + ": " + ex.Message, resourceLoader.GetString("ErrHeader"));
+					statusBar.ProgressIndicator.HideAsync();
 					msg.ShowAsync();
 				}
 			}
-
+			await statusBar.ProgressIndicator.HideAsync();
 		}
 
 
