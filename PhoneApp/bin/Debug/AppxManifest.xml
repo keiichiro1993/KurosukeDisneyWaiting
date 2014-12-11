@@ -7,11 +7,11 @@
 
     パッケージ マニフェスト ファイルの詳細については、http://go.microsoft.com/fwlink/?LinkID=241727 を参照してください
   -->
-  <Identity Name="2998f63d-8fa0-406a-b09d-cf4e81322d02" Publisher="CN=Kurosuke" Version="1.0.0.0" ProcessorArchitecture="neutral" />
-  <mp:PhoneIdentity PhoneProductId="2998f63d-8fa0-406a-b09d-cf4e81322d02" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="57769kurosuke.36257A2A2350B" Publisher="CN=B6F43A7B-5C32-4F65-BF08-F80010939C90" Version="1.1.0.0" ProcessorArchitecture="neutral" />
+  <mp:PhoneIdentity PhoneProductId="77f7af49-4d7e-4e4c-9768-f79425acf241" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>PhoneApp</DisplayName>
-    <PublisherDisplayName>Kurosuke</PublisherDisplayName>
+    <DisplayName>ディズニーをグラフにするやつ</DisplayName>
+    <PublisherDisplayName>kurosuke</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -20,11 +20,12 @@
   </Prerequisites>
   <Resources>
     <Resource Language="JA-JP" />
+    <Resource Language="EN-US" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="PhoneApp.exe" EntryPoint="PhoneApp.App">
-      <m3:VisualElements DisplayName="PhoneApp" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="PhoneApp" ForegroundText="light" BackgroundColor="transparent">
-        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" />
+      <m3:VisualElements DisplayName="ディズニーをグラフにするやつ" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="東京ディズニーランド/ディズニーシーの待ち時間をグラフで表示します。" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png"></m3:DefaultTile>
         <m3:SplashScreen Image="Assets\SplashScreen.png" />
       </m3:VisualElements>
     </Application>
