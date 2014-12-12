@@ -56,7 +56,6 @@
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\PhoneApp.xr.xml"			"PhoneApp.xr.xml"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\DetailPage.xbf"			"DetailPage.xbf"
-"C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\BasicPage1.xbf"			"BasicPage1.xbf"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\Assets\WideLogo.scale-240.png"			"Assets\WideLogo.scale-240.png"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\Assets\StoreLogo.scale-240.png"			"Assets\StoreLogo.scale-240.png"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\Assets\Square71x71Logo.scale-240.png"			"Assets\Square71x71Logo.scale-240.png"

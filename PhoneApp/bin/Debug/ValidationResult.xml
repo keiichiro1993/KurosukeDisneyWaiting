@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\wp-results.xsl'?>
-<REPORT OVERALL_RESULT="PASS" VERSION="3.4" LATEST_VERSION="FALSE" UPDATE_DOWNLOAD_URL="http://go.microsoft.com/fwlink/?LinkID=246599&amp;amp;clcid=0x409" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsPhone" PUBLISHER_DISPLAY_NAME="kurosuke" APP_NAME="57769kurosuke.36257A2A2350B" APP_VERSION="1.1.0.1" OSVERSION="6.3.9600.0" OS="Microsoft Windows 8.1" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1041" VALIDATION_TYPE="UI" ReportGenerationTime="2014/12/08 19:14:13" ID="8c6e104898f851808c6e3280cccdea6e">
+<REPORT OVERALL_RESULT="PASS" VERSION="3.4" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsPhone" PUBLISHER_DISPLAY_NAME="kurosuke" APP_NAME="57769kurosuke.36257A2A2350B" APP_VERSION="1.1.0.2" OSVERSION="6.3.9600.0" OS="Microsoft Windows 8.1" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1041" VALIDATION_TYPE="UI" ReportGenerationTime="2014/12/12 10:22:56" ID="d0b97699ad7de2ba3192b3348091e747">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="1" TITLE="クリーンに元の状態に戻すことが可能かどうかのテスト" RATIONALE="クリーンで元に戻すことが可能なインストールにより、ユーザーはシステム上でアプリケーションを適切に管理 (展開と削除) できます。" />
     <REQUIREMENT NUMBER="2" TITLE="正しいフォルダーにインストールするテスト" RATIONALE="Windows によって、プログラムとソフトウェア コンポーネント、共有アプリケーション データ、およびユーザー固有のアプリケーション データの保存先として、ファイル システム内の特定の保存場所が指定されます。" />
@@ -14,40 +14,40 @@
     <REQUIREMENT NUMBER="10" TITLE="クラッシュとハングのテスト" RATIONALE="クラッシュやハングなどのアプリケーション エラーが発生すると、ユーザーの作業が中断され、フラストレーションの原因になります。このようなエラーを削減することが、アプリケーションの安定性と信頼性を向上させ、全体としてより良質なアプリケーションの提供につながります。" />
     <REQUIREMENT NUMBER="11" TITLE="互換性と復元のテスト" RATIONALE="アプリケーションが互換性のない方法で動作していることが Windows によって検出された場合、アプリケーションが正しく動作し、ユーザーが快適に操作できるようにするために、互換性修正プログラムが適用されます。互換性修正プログラムは、レガシ アプリケーションが Windows 上で正しく動作することのみを目的に提供されているため、アプリケーションがその動作に依存しないようにする必要があります。" />
     <REQUIREMENT NUMBER="12" TITLE="パッケージの準拠のテスト" RATIONALE="パッケージ マニフェストに、1 つまたは複数の必須属性がありませんでした。">
-      <TEST INDEX="77" NAME="アプリケーション数" DESCRIPTION="1 つのパッケージで、マニフェスト内に複数のアプリを定義することはできません。" EXECUTIONTIME="00h:00m:01s.55ms">
+      <TEST INDEX="77" NAME="アプリケーション数" DESCRIPTION="1 つのパッケージで、マニフェスト内に複数のアプリを定義することはできません。" EXECUTIONTIME="00h:00m:01s.59ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="31" NAME="アプリ マニフェスト" DESCRIPTION="アプリ マニフェストには、すべての必須フィールドに有効なエントリを含める必要があります。" EXECUTIONTIME="00h:00m:04s.78ms">
+      <TEST INDEX="31" NAME="アプリ マニフェスト" DESCRIPTION="アプリ マニフェストには、すべての必須フィールドに有効なエントリを含める必要があります。" EXECUTIONTIME="00h:00m:04s.91ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="74" NAME="バンドル マニフェスト" DESCRIPTION="バンドル マニフェストのすべての必須フィールドに、有効なエントリを指定する必要があります。" EXECUTIONTIME="00h:00m:04s.19ms">
+      <TEST INDEX="74" NAME="バンドル マニフェスト" DESCRIPTION="バンドル マニフェストのすべての必須フィールドに、有効なエントリを指定する必要があります。" EXECUTIONTIME="00h:00m:04s.29ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="75" NAME="パッケージ サイズ" DESCRIPTION="パッケージ ファイルのサイズは、4 GB 以下である必要があります。" EXECUTIONTIME="00h:00m:02s.19ms">
+      <TEST INDEX="75" NAME="パッケージ サイズ" DESCRIPTION="パッケージ ファイルのサイズは、4 GB 以下である必要があります。" EXECUTIONTIME="00h:00m:02s.23ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="13" TITLE="Windows セキュリティのベスト プラクティスのテスト" RATIONALE="アプリケーションが Windows の既定のセキュリティ設定を変更しないようにします。" />
     <REQUIREMENT NUMBER="14" TITLE="Windows セキュリティ機能のテスト" RATIONALE="アプリケーションは Windows セキュリティ機能をオプトインする必要があります。">
-      <TEST INDEX="33" NAME="Binary Analyzer" DESCRIPTION="バイナリ上で有効にされているセキュリティ機能を分析します" EXECUTIONTIME="00h:00m:04s.20ms">
+      <TEST INDEX="33" NAME="Binary Analyzer" DESCRIPTION="バイナリ上で有効にされているセキュリティ機能を分析します" EXECUTIONTIME="00h:00m:04s.22ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="70" NAME="禁止されたファイルのアナライザー" DESCRIPTION="安全でない既知のファイルを検出するアプリケーションの分析" EXECUTIONTIME="00h:00m:02s.36ms">
+      <TEST INDEX="70" NAME="禁止されたファイルのアナライザー" DESCRIPTION="安全でない既知のファイルを検出するアプリケーションの分析" EXECUTIONTIME="00h:00m:02s.40ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="62" NAME="プライベート コード署名" DESCRIPTION="アプリで、プライベート コード署名キー ファイルをパッケージしないでください。" EXECUTIONTIME="00h:00m:02s.33ms">
+      <TEST INDEX="62" NAME="プライベート コード署名" DESCRIPTION="アプリで、プライベート コード署名キー ファイルをパッケージしないでください。" EXECUTIONTIME="00h:00m:02s.25ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="15" TITLE="サポートされている API のテスト" RATIONALE="アプリケーションは、Windows ストア アプリ用 Windows SDK によって許可された API のみを参照する必要があります。">
-      <TEST INDEX="72" NAME="サポートされている API" DESCRIPTION="Windows Phone アプリは、サポートされているプラットフォーム API のみを使用する必要があります。" EXECUTIONTIME="00h:00m:05s.01ms">
+      <TEST INDEX="72" NAME="サポートされている API" DESCRIPTION="Windows Phone アプリは、サポートされているプラットフォーム API のみを使用する必要があります。" EXECUTIONTIME="00h:00m:05s.16ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
@@ -58,40 +58,40 @@
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="61" NAME="ブランド検証" DESCRIPTION="アプリで、Windows SDK サンプルまたは Visual Studio によってパックされた既定のイメージを使用しないでください。" EXECUTIONTIME="00h:00m:05s.39ms">
+      <TEST INDEX="61" NAME="ブランド検証" DESCRIPTION="アプリで、Windows SDK サンプルまたは Visual Studio によってパックされた既定のイメージを使用しないでください。" EXECUTIONTIME="00h:00m:05s.34ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="デバッグ構成のテスト" RATIONALE="アプリによるデバッグ バイナリのインストールは禁止されています。">
-      <TEST INDEX="46" NAME="デバッグの構成" DESCRIPTION="アプリによるデバッグ バイナリのインストールは禁止されています。" EXECUTIONTIME="00h:00m:03s.65ms">
+      <TEST INDEX="46" NAME="デバッグの構成" DESCRIPTION="アプリによるデバッグ バイナリのインストールは禁止されています。" EXECUTIONTIME="00h:00m:03s.66ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="21" TITLE="ファイルのエンコードのテスト" RATIONALE="HTML5 Windows ストア アプリを含むパッケージは、ファイルが正しくエンコードされている必要があります。">
-      <TEST INDEX="49" NAME="UTF-8 ファイル エンコード" DESCRIPTION="HTML5 Windows ストア アプリを含むパッケージは、ファイルが正しくエンコードされている必要があります。" EXECUTIONTIME="00h:00m:02s.59ms">
+      <TEST INDEX="49" NAME="UTF-8 ファイル エンコード" DESCRIPTION="HTML5 Windows ストア アプリを含むパッケージは、ファイルが正しくエンコードされている必要があります。" EXECUTIONTIME="00h:00m:02s.66ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="22" TITLE="Direct3D 機能テスト" RATIONALE="アプリは Direct3D 機能を正しく使用する必要があります。" />
     <REQUIREMENT NUMBER="23" TITLE="アプリ機能テスト" RATIONALE="特殊用途の機能を宣言するパッケージでは、オンボード プロセス時に理由を指定する必要があります。">
-      <TEST INDEX="52" NAME="特殊用途の機能" DESCRIPTION="特殊用途の機能を宣言するパッケージでは、オンボード プロセス時に理由を指定する必要があります。" EXECUTIONTIME="00h:00m:01s.54ms">
+      <TEST INDEX="52" NAME="特殊用途の機能" DESCRIPTION="特殊用途の機能を宣言するパッケージでは、オンボード プロセス時に理由を指定する必要があります。" EXECUTIONTIME="00h:00m:01s.60ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows ランタイム メタデータの検証" RATIONALE="メタデータは、すべての生成ソースにわたって整合性および一貫性を維持している必要があります。">
-      <TEST INDEX="56" NAME="ExclusiveTo 属性テスト" DESCRIPTION="クラスは、別のクラスに対して ExclusiveTo とマークされたインターフェイスを実装してはなりません。" EXECUTIONTIME="00h:00m:01s.62ms">
+      <TEST INDEX="56" NAME="ExclusiveTo 属性テスト" DESCRIPTION="クラスは、別のクラスに対して ExclusiveTo とマークされたインターフェイスを実装してはなりません。" EXECUTIONTIME="00h:00m:01s.64ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="57" NAME="型のロケーション テスト" DESCRIPTION="一致する名前空間が最も長いメタデータ ファイル内に、型が定義されている必要があります。" EXECUTIONTIME="00h:00m:00s.59ms">
+      <TEST INDEX="57" NAME="型のロケーション テスト" DESCRIPTION="一致する名前空間が最も長いメタデータ ファイル内に、型が定義されている必要があります。" EXECUTIONTIME="00h:00m:00s.60ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="55" NAME="型名の大文字小文字の区別テスト" DESCRIPTION="名前空間および型名は、大文字/小文字の違いだけで異なるものにすることはできません。" EXECUTIONTIME="00h:00m:00s.60ms">
+      <TEST INDEX="55" NAME="型名の大文字小文字の区別テスト" DESCRIPTION="名前空間および型名は、大文字/小文字の違いだけで異なるものにすることはできません。" EXECUTIONTIME="00h:00m:00s.61ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
@@ -99,7 +99,7 @@
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
-      <TEST INDEX="58" NAME="一般的なメタデータ正確性テスト" DESCRIPTION="メタデータ ファイルは、有効かつ正確であるためにさまざまな要件を満たしている必要があります。" EXECUTIONTIME="00h:00m:01s.85ms">
+      <TEST INDEX="58" NAME="一般的なメタデータ正確性テスト" DESCRIPTION="メタデータ ファイルは、有効かつ正確であるためにさまざまな要件を満たしている必要があります。" EXECUTIONTIME="00h:00m:01s.94ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
@@ -109,14 +109,14 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="パッケージのサニティ テスト" RATIONALE="アプリ パッケージのコンテンツを検証して、正確性を確認します。">
-      <TEST INDEX="63" NAME="プラットフォームに適したファイル" DESCRIPTION="アプリでは、ターゲット プロセッサのアーキテクチャに一致しないファイルをインストールしないようにする必要があります。" EXECUTIONTIME="00h:00m:03s.54ms">
+      <TEST INDEX="63" NAME="プラットフォームに適したファイル" DESCRIPTION="アプリでは、ターゲット プロセッサのアーキテクチャに一致しないファイルをインストールしないようにする必要があります。" EXECUTIONTIME="00h:00m:03s.62ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="26" TITLE="高 DPI サポート" RATIONALE="さまざまな高 DPI のディスプレイ設定で一貫して適切な UI の表示を実現するためには、アプリケーションを DPI 対応として設定する必要があります。" />
     <REQUIREMENT NUMBER="27" TITLE="リソース使用量のテスト" RATIONALE="WinJS バックグラウンド タスクでは、close() を呼び出してリソースを解放する必要があります。">
-      <TEST INDEX="68" NAME="WinJS バックグラウンド タスクのテスト" DESCRIPTION="WinJS バックグラウンド タスクでは、close() を呼び出してリソースを解放する必要があります。" EXECUTIONTIME="00h:00m:03s.48ms">
+      <TEST INDEX="68" NAME="WinJS バックグラウンド タスクのテスト" DESCRIPTION="WinJS バックグラウンド タスクでは、close() を呼び出してリソースを解放する必要があります。" EXECUTIONTIME="00h:00m:03s.56ms">
         <RESULT><![CDATA[PASS]]></RESULT>
         <MESSAGES />
       </TEST>
@@ -758,7 +758,7 @@
           <AitFeature Name="System.Void" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="PhoneApp.exe" Id="000007370536a7516b470f92687ff0cf2e453ce5dec6">
+      <AitFile ErrorCode="0" Name="PhoneApp.exe" Id="0000458277b1762a0c8048c904f16ce3e02056b56d6f">
         <AitCategory Id="ApiStatic">
           <AitFeature Name="mscoree.dll!_CorExeMain" />
         </AitCategory>
@@ -1033,7 +1033,6 @@
           <AitFeature Name="Windows.UI.Xaml.Controls.Frame.get_CanGoForward" />
           <AitFeature Name="Windows.UI.Xaml.Controls.Frame.put_CacheSize" />
           <AitFeature Name="Windows.UI.Xaml.Controls.Frame.remove_Navigated" />
-          <AitFeature Name="Windows.UI.Xaml.Controls.Grid" />
           <AitFeature Name="Windows.UI.Xaml.Controls.Page" />
           <AitFeature Name="Windows.UI.Xaml.Controls.Page..ctor" />
           <AitFeature Name="Windows.UI.Xaml.Controls.Page.get_Frame" />
@@ -1102,7 +1101,7 @@
           <AitFeature Name="Windows.UI.Xaml.Window.put_Content" />
         </AitCategory>
       </AitFile>
-      <AitFile ErrorCode="0" Name="PhoneCommon.dll" Id="0000bb44787e75623a056d8a9b3083882cf83edb29f5">
+      <AitFile ErrorCode="0" Name="PhoneCommon.dll" Id="0000a4cc1a24e9f796c4bca8585f6e60f45c2021c10b">
         <AitCategory Id="ApiStatic">
           <AitFeature Name="mscoree.dll!_CorDllMain" />
         </AitCategory>

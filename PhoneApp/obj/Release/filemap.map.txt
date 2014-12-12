@@ -12,7 +12,6 @@
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\Newtonsoft.Json.dll"			"Newtonsoft.Json.dll"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\MainPage.xbf"			"MainPage.xbf"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\DetailPage.xbf"			"DetailPage.xbf"
-"C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\BasicPage1.xbf"			"BasicPage1.xbf"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\App.xbf"			"App.xbf"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml"			"WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml"
 "C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Release\PackageLayout\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf"			"WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf"

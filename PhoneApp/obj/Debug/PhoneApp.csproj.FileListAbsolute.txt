@@ -51,16 +51,3 @@ C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\o
 C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\qualifiers.txt
 C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.pri.xml
 C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\BasicPage1.g.i.cs
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\BasicPage1.g.cs
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\BasicPage1.xaml
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\BasicPage1.xbf
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\bin\Debug\BasicPage1.xbf
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\layout.resfiles.intermediate
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\Resources.resfiles.intermediate
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\pri.resfiles.intermediate
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml
-C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\obj\Debug\WinRTXamlToolkit.Controls.DataVisualization\priconfig.xml.intermediate

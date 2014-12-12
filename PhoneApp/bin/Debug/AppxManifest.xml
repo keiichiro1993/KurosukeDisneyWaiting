@@ -7,7 +7,7 @@
 
     パッケージ マニフェスト ファイルの詳細については、http://go.microsoft.com/fwlink/?LinkID=241727 を参照してください
   -->
-  <Identity Name="57769kurosuke.36257A2A2350B" Publisher="CN=B6F43A7B-5C32-4F65-BF08-F80010939C90" Version="1.1.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="57769kurosuke.36257A2A2350B" Publisher="CN=B6F43A7B-5C32-4F65-BF08-F80010939C90" Version="1.1.0.1" ProcessorArchitecture="neutral" />
   <mp:PhoneIdentity PhoneProductId="77f7af49-4d7e-4e4c-9768-f79425acf241" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>ディズニーをグラフにするやつ</DisplayName>

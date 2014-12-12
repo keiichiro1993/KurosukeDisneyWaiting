@@ -10,6 +10,6 @@ namespace PhoneCommon.Models
 	public class HTMLTheme
 	{
 		public string ThemeName { get; set; }
-		public ObservableCollection<HTMLAttraction> Attractions { get; set; }
+		public ObservableCollection<HTMLAttraction> Attractions{ get; set; }
 	}
 }

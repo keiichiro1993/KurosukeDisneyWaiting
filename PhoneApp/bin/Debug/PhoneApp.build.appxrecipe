@@ -70,9 +70,6 @@
     <AppxPackagedFile Include="C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\bin\Debug\BasicPage1.xbf">
-      <PackagePath>BasicPage1.xbf</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Kurosuke\Documents\Visual Studio 2013\Projects\DisneyWaiting\PhoneApp\bin\Debug\DetailPage.xbf">
       <PackagePath>DetailPage.xbf</PackagePath>
     </AppxPackagedFile>

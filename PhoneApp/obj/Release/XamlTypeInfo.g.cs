@@ -148,67 +148,61 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[29];
-            _typeNameTable[0] = "PhoneApp.BasicPage1";
-            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "PhoneApp.Common.NavigationHelper";
-            _typeNameTable[4] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[5] = "PhoneApp.Common.ObservableDictionary";
-            _typeNameTable[6] = "Object";
-            _typeNameTable[7] = "String";
-            _typeNameTable[8] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart";
-            _typeNameTable[9] = "Windows.UI.Xaml.Controls.Control";
-            _typeNameTable[10] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>";
-            _typeNameTable[11] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries";
-            _typeNameTable[12] = "System.Collections.ObjectModel.ObservableCollection`1<Object>";
-            _typeNameTable[13] = "System.Collections.ObjectModel.Collection`1<Object>";
-            _typeNameTable[14] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
-            _typeNameTable[15] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis";
-            _typeNameTable[16] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation";
-            _typeNameTable[17] = "System.Enum";
-            _typeNameTable[18] = "System.ValueType";
-            _typeNameTable[19] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
-            _typeNameTable[20] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
-            _typeNameTable[21] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener";
-            _typeNameTable[22] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
-            _typeNameTable[23] = "System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
-            _typeNameTable[24] = "Windows.UI.Xaml.Style";
-            _typeNameTable[25] = "System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>";
-            _typeNameTable[26] = "Windows.UI.Xaml.ResourceDictionary";
-            _typeNameTable[27] = "PhoneApp.DetailPage";
-            _typeNameTable[28] = "PhoneApp.MainPage";
+            _typeNameTable = new string[26];
+            _typeNameTable[0] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart";
+            _typeNameTable[1] = "Windows.UI.Xaml.Controls.Control";
+            _typeNameTable[2] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>";
+            _typeNameTable[3] = "Object";
+            _typeNameTable[4] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries";
+            _typeNameTable[5] = "System.Collections.ObjectModel.ObservableCollection`1<Object>";
+            _typeNameTable[6] = "System.Collections.ObjectModel.Collection`1<Object>";
+            _typeNameTable[7] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
+            _typeNameTable[8] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis";
+            _typeNameTable[9] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation";
+            _typeNameTable[10] = "System.Enum";
+            _typeNameTable[11] = "System.ValueType";
+            _typeNameTable[12] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
+            _typeNameTable[13] = "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>";
+            _typeNameTable[14] = "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener";
+            _typeNameTable[15] = "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
+            _typeNameTable[16] = "System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>";
+            _typeNameTable[17] = "Windows.UI.Xaml.Style";
+            _typeNameTable[18] = "System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>";
+            _typeNameTable[19] = "Windows.UI.Xaml.ResourceDictionary";
+            _typeNameTable[20] = "PhoneApp.DetailPage";
+            _typeNameTable[21] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[22] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[23] = "PhoneApp.Common.NavigationHelper";
+            _typeNameTable[24] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[25] = "PhoneApp.MainPage";
 
-            _typeTable = new global::System.Type[29];
-            _typeTable[0] = typeof(global::PhoneApp.BasicPage1);
-            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::PhoneApp.Common.NavigationHelper);
-            _typeTable[4] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[5] = typeof(global::PhoneApp.Common.ObservableDictionary);
-            _typeTable[6] = typeof(global::System.Object);
-            _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart);
-            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.Control);
-            _typeTable[10] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>);
-            _typeTable[11] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries);
-            _typeTable[12] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>);
-            _typeTable[13] = typeof(global::System.Collections.ObjectModel.Collection<global::System.Object>);
-            _typeTable[14] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
-            _typeTable[15] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis);
-            _typeTable[16] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation);
-            _typeTable[17] = typeof(global::System.Enum);
-            _typeTable[18] = typeof(global::System.ValueType);
-            _typeTable[19] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
-            _typeTable[20] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
-            _typeTable[21] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener);
-            _typeTable[22] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
-            _typeTable[23] = typeof(global::System.Collections.ObjectModel.ReadOnlyCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
-            _typeTable[24] = typeof(global::Windows.UI.Xaml.Style);
-            _typeTable[25] = typeof(global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>);
-            _typeTable[26] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
-            _typeTable[27] = typeof(global::PhoneApp.DetailPage);
-            _typeTable[28] = typeof(global::PhoneApp.MainPage);
+            _typeTable = new global::System.Type[26];
+            _typeTable[0] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Control);
+            _typeTable[2] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>);
+            _typeTable[3] = typeof(global::System.Object);
+            _typeTable[4] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries);
+            _typeTable[5] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>);
+            _typeTable[6] = typeof(global::System.Collections.ObjectModel.Collection<global::System.Object>);
+            _typeTable[7] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
+            _typeTable[8] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis);
+            _typeTable[9] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation);
+            _typeTable[10] = typeof(global::System.Enum);
+            _typeTable[11] = typeof(global::System.ValueType);
+            _typeTable[12] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
+            _typeTable[13] = typeof(global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>);
+            _typeTable[14] = typeof(global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener);
+            _typeTable[15] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
+            _typeTable[16] = typeof(global::System.Collections.ObjectModel.ReadOnlyCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>);
+            _typeTable[17] = typeof(global::Windows.UI.Xaml.Style);
+            _typeTable[18] = typeof(global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
+            _typeTable[20] = typeof(global::PhoneApp.DetailPage);
+            _typeTable[21] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[22] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[23] = typeof(global::PhoneApp.Common.NavigationHelper);
+            _typeTable[24] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[25] = typeof(global::PhoneApp.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -243,75 +237,66 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_BasicPage1() { return new global::PhoneApp.BasicPage1(); }
-        private object Activate_5_ObservableDictionary() { return new global::PhoneApp.Common.ObservableDictionary(); }
-        private object Activate_8_Chart() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart(); }
-        private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>(); }
-        private object Activate_12_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>(); }
-        private object Activate_13_Collection() { return new global::System.Collections.ObjectModel.Collection<global::System.Object>(); }
-        private object Activate_14_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
-        private object Activate_19_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
-        private object Activate_20_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
-        private object Activate_22_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
-        private object Activate_25_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>(); }
-        private object Activate_27_DetailPage() { return new global::PhoneApp.DetailPage(); }
-        private object Activate_28_MainPage() { return new global::PhoneApp.MainPage(); }
-        private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
-        {
-            var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
-            var newKey = (global::System.String)key;
-            var newItem = (global::System.Object)item;
-            collection.Add(newKey, newItem);
-        }
-        private void VectorAdd_10_Collection(object instance, object item)
+        private object Activate_0_Chart() { return new global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart(); }
+        private object Activate_2_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>(); }
+        private object Activate_5_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::System.Object>(); }
+        private object Activate_6_Collection() { return new global::System.Collections.ObjectModel.Collection<global::System.Object>(); }
+        private object Activate_7_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
+        private object Activate_12_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
+        private object Activate_13_Collection() { return new global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>(); }
+        private object Activate_15_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>(); }
+        private object Activate_18_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>(); }
+        private object Activate_20_DetailPage() { return new global::PhoneApp.DetailPage(); }
+        private object Activate_25_MainPage() { return new global::PhoneApp.MainPage(); }
+        private void VectorAdd_2_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_12_ObservableCollection(object instance, object item)
+        private void VectorAdd_5_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_6_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
+            var newItem = (global::System.Object)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_7_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)instance;
+            var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_12_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>)instance;
+            var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener)item;
             collection.Add(newItem);
         }
         private void VectorAdd_13_Collection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
-            var newItem = (global::System.Object)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_14_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)instance;
-            var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_19_ObservableCollection(object instance, object item)
-        {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_20_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>)instance;
-            var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_22_ObservableCollection(object instance, object item)
+        private void VectorAdd_15_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_23_ReadOnlyCollection(object instance, object item)
+        private void VectorAdd_16_ReadOnlyCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)instance;
             var newItem = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_25_Collection(object instance, object item)
+        private void VectorAdd_18_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.ResourceDictionary>)instance;
             var newItem = (global::Windows.UI.Xaml.ResourceDictionary)item;
@@ -328,53 +313,9 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  PhoneApp.BasicPage1
-                userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_BasicPage1;
-                userType.AddMemberName("NavigationHelper");
-                userType.AddMemberName("DefaultViewModel");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 3:   //  PhoneApp.Common.NavigationHelper
-                userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 4:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 5:   //  PhoneApp.Common.ObservableDictionary
-                userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_5_ObservableDictionary;
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 6:   //  Object
-                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  String
-                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 8:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart
+            case 0:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_8_Chart;
+                userType.Activator = Activate_0_Chart;
                 userType.SetContentPropertyName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.Series");
                 userType.AddMemberName("Series");
                 userType.AddMemberName("Title");
@@ -390,45 +331,49 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  Windows.UI.Xaml.Controls.Control
+            case 1:   //  Windows.UI.Xaml.Controls.Control
                 xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>
+            case 2:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_10_Collection;
+                userType.CollectionAdd = VectorAdd_2_Collection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 11:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries
+            case 3:   //  Object
+                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 4:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.AddMemberName("LegendItems");
                 xamlType = userType;
                 break;
 
-            case 12:   //  System.Collections.ObjectModel.ObservableCollection`1<Object>
+            case 5:   //  System.Collections.ObjectModel.ObservableCollection`1<Object>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Object>"));
-                userType.CollectionAdd = VectorAdd_12_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_5_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 13:   //  System.Collections.ObjectModel.Collection`1<Object>
+            case 6:   //  System.Collections.ObjectModel.Collection`1<Object>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_13_Collection;
-                userType.CollectionAdd = VectorAdd_13_Collection;
+                userType.Activator = Activate_6_Collection;
+                userType.CollectionAdd = VectorAdd_6_Collection;
                 xamlType = userType;
                 break;
 
-            case 14:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
+            case 7:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_14_Collection;
-                userType.CollectionAdd = VectorAdd_14_Collection;
+                userType.Activator = Activate_7_Collection;
+                userType.CollectionAdd = VectorAdd_7_Collection;
                 xamlType = userType;
                 break;
 
-            case 15:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis
+            case 8:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.AddMemberName("Orientation");
                 userType.AddMemberName("RegisteredListeners");
@@ -436,7 +381,7 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 16:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation
+            case 9:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation.None);
                 userType.AddEnumValue("X", global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation.X);
@@ -444,75 +389,94 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 17:   //  System.Enum
+            case 10:   //  System.Enum
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 18:   //  System.ValueType
+            case 11:   //  System.ValueType
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 19:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
+            case 12:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>"));
-                userType.CollectionAdd = VectorAdd_19_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_12_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 20:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
+            case 13:   //  System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_20_Collection;
-                userType.CollectionAdd = VectorAdd_20_Collection;
+                userType.Activator = Activate_13_Collection;
+                userType.CollectionAdd = VectorAdd_13_Collection;
                 xamlType = userType;
                 break;
 
-            case 21:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener
+            case 14:   //  WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 xamlType = userType;
                 break;
 
-            case 22:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
+            case 15:   //  System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>"));
-                userType.CollectionAdd = VectorAdd_22_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_15_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 23:   //  System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
+            case 16:   //  System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_23_ReadOnlyCollection;
+                userType.CollectionAdd = VectorAdd_16_ReadOnlyCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 24:   //  Windows.UI.Xaml.Style
+            case 17:   //  Windows.UI.Xaml.Style
                 xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 25:   //  System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>
+            case 18:   //  System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_25_Collection;
+                userType.CollectionAdd = VectorAdd_18_Collection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 26:   //  Windows.UI.Xaml.ResourceDictionary
+            case 19:   //  Windows.UI.Xaml.ResourceDictionary
                 xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 27:   //  PhoneApp.DetailPage
+            case 20:   //  PhoneApp.DetailPage
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_27_DetailPage;
+                userType.Activator = Activate_20_DetailPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  PhoneApp.MainPage
+            case 21:   //  Windows.UI.Xaml.Controls.Page
+                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 22:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 23:   //  PhoneApp.Common.NavigationHelper
+                userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 24:   //  Windows.UI.Xaml.DependencyObject
+                xamlType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 25:   //  PhoneApp.MainPage
                 userType = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_28_MainPage;
+                userType.Activator = Activate_25_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -576,142 +540,132 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
             return foundXamlType;
         }
 
-        private object get_0_BasicPage1_NavigationHelper(object instance)
-        {
-            var that = (global::PhoneApp.BasicPage1)instance;
-            return that.NavigationHelper;
-        }
-        private object get_1_BasicPage1_DefaultViewModel(object instance)
-        {
-            var that = (global::PhoneApp.BasicPage1)instance;
-            return that.DefaultViewModel;
-        }
-        private object get_2_Chart_Series(object instance)
+        private object get_0_Chart_Series(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.Series;
         }
-        private void set_2_Chart_Series(object instance, object Value)
+        private void set_0_Chart_Series(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.Series = (global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>)Value;
         }
-        private object get_3_ISeries_LegendItems(object instance)
+        private object get_1_ISeries_LegendItems(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries)instance;
             return that.LegendItems;
         }
-        private object get_4_Chart_Title(object instance)
+        private object get_2_Chart_Title(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.Title;
         }
-        private void set_4_Chart_Title(object instance, object Value)
+        private void set_2_Chart_Title(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.Title = (global::System.Object)Value;
         }
-        private object get_5_Chart_Axes(object instance)
+        private object get_3_Chart_Axes(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.Axes;
         }
-        private void set_5_Chart_Axes(object instance, object Value)
+        private void set_3_Chart_Axes(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.Axes = (global::System.Collections.ObjectModel.Collection<global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>)Value;
         }
-        private object get_6_IAxis_Orientation(object instance)
+        private object get_4_IAxis_Orientation(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)instance;
             return that.Orientation;
         }
-        private void set_6_IAxis_Orientation(object instance, object Value)
+        private void set_4_IAxis_Orientation(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)instance;
             that.Orientation = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation)Value;
         }
-        private object get_7_IAxis_RegisteredListeners(object instance)
+        private object get_5_IAxis_RegisteredListeners(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)instance;
             return that.RegisteredListeners;
         }
-        private object get_8_IAxis_DependentAxes(object instance)
+        private object get_6_IAxis_DependentAxes(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis)instance;
             return that.DependentAxes;
         }
-        private object get_9_Chart_ActualAxes(object instance)
+        private object get_7_Chart_ActualAxes(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.ActualAxes;
         }
-        private object get_10_Chart_ChartAreaStyle(object instance)
+        private object get_8_Chart_ChartAreaStyle(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.ChartAreaStyle;
         }
-        private void set_10_Chart_ChartAreaStyle(object instance, object Value)
+        private void set_8_Chart_ChartAreaStyle(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.ChartAreaStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_11_Chart_LegendItems(object instance)
+        private object get_9_Chart_LegendItems(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.LegendItems;
         }
-        private object get_12_Chart_LegendStyle(object instance)
+        private object get_10_Chart_LegendStyle(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.LegendStyle;
         }
-        private void set_12_Chart_LegendStyle(object instance, object Value)
+        private void set_10_Chart_LegendStyle(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.LegendStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_13_Chart_LegendTitle(object instance)
+        private object get_11_Chart_LegendTitle(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.LegendTitle;
         }
-        private void set_13_Chart_LegendTitle(object instance, object Value)
+        private void set_11_Chart_LegendTitle(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.LegendTitle = (global::System.Object)Value;
         }
-        private object get_14_Chart_PlotAreaStyle(object instance)
+        private object get_12_Chart_PlotAreaStyle(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.PlotAreaStyle;
         }
-        private void set_14_Chart_PlotAreaStyle(object instance, object Value)
+        private void set_12_Chart_PlotAreaStyle(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.PlotAreaStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_15_Chart_Palette(object instance)
+        private object get_13_Chart_Palette(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.Palette;
         }
-        private void set_15_Chart_Palette(object instance, object Value)
+        private void set_13_Chart_Palette(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.Palette = (global::System.Collections.ObjectModel.Collection<global::Windows.UI.Xaml.ResourceDictionary>)Value;
         }
-        private object get_16_Chart_TitleStyle(object instance)
+        private object get_14_Chart_TitleStyle(object instance)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             return that.TitleStyle;
         }
-        private void set_16_Chart_TitleStyle(object instance, object Value)
+        private void set_14_Chart_TitleStyle(object instance, object Value)
         {
             var that = (global::WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart)instance;
             that.TitleStyle = (global::Windows.UI.Xaml.Style)Value;
         }
-        private object get_17_DetailPage_NavigationHelper(object instance)
+        private object get_15_DetailPage_NavigationHelper(object instance)
         {
             var that = (global::PhoneApp.DetailPage)instance;
             return that.NavigationHelper;
@@ -724,119 +678,107 @@ namespace PhoneApp.PhoneApp_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "PhoneApp.BasicPage1.NavigationHelper":
-                userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PhoneApp.BasicPage1");
-                xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PhoneApp.Common.NavigationHelper");
-                xamlMember.Getter = get_0_BasicPage1_NavigationHelper;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "PhoneApp.BasicPage1.DefaultViewModel":
-                userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PhoneApp.BasicPage1");
-                xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "PhoneApp.Common.ObservableDictionary");
-                xamlMember.Getter = get_1_BasicPage1_DefaultViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.Series":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "Series", "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries>");
-                xamlMember.Getter = get_2_Chart_Series;
-                xamlMember.Setter = set_2_Chart_Series;
+                xamlMember.Getter = get_0_Chart_Series;
+                xamlMember.Setter = set_0_Chart_Series;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries.LegendItems":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.ISeries");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "LegendItems", "System.Collections.ObjectModel.ObservableCollection`1<Object>");
-                xamlMember.Getter = get_3_ISeries_LegendItems;
+                xamlMember.Getter = get_1_ISeries_LegendItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.Title":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "Title", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_Chart_Title;
-                xamlMember.Setter = set_4_Chart_Title;
+                xamlMember.Getter = get_2_Chart_Title;
+                xamlMember.Setter = set_2_Chart_Title;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.Axes":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "Axes", "System.Collections.ObjectModel.Collection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>");
-                xamlMember.Getter = get_5_Chart_Axes;
-                xamlMember.Setter = set_5_Chart_Axes;
+                xamlMember.Getter = get_3_Chart_Axes;
+                xamlMember.Setter = set_3_Chart_Axes;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis.Orientation":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "Orientation", "WinRTXamlToolkit.Controls.DataVisualization.Charting.AxisOrientation");
-                xamlMember.Getter = get_6_IAxis_Orientation;
-                xamlMember.Setter = set_6_IAxis_Orientation;
+                xamlMember.Getter = get_4_IAxis_Orientation;
+                xamlMember.Setter = set_4_IAxis_Orientation;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis.RegisteredListeners":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "RegisteredListeners", "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxisListener>");
-                xamlMember.Getter = get_7_IAxis_RegisteredListeners;
+                xamlMember.Getter = get_5_IAxis_RegisteredListeners;
                 xamlMember.SetIsReadOnly();
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis.DependentAxes":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "DependentAxes", "System.Collections.ObjectModel.ObservableCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>");
-                xamlMember.Getter = get_8_IAxis_DependentAxes;
+                xamlMember.Getter = get_6_IAxis_DependentAxes;
                 xamlMember.SetIsReadOnly();
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.ActualAxes":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "ActualAxes", "System.Collections.ObjectModel.ReadOnlyCollection`1<WinRTXamlToolkit.Controls.DataVisualization.Charting.IAxis>");
-                xamlMember.Getter = get_9_Chart_ActualAxes;
+                xamlMember.Getter = get_7_Chart_ActualAxes;
                 xamlMember.SetIsReadOnly();
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.ChartAreaStyle":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "ChartAreaStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_Chart_ChartAreaStyle;
-                xamlMember.Setter = set_10_Chart_ChartAreaStyle;
+                xamlMember.Getter = get_8_Chart_ChartAreaStyle;
+                xamlMember.Setter = set_8_Chart_ChartAreaStyle;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.LegendItems":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "LegendItems", "System.Collections.ObjectModel.Collection`1<Object>");
-                xamlMember.Getter = get_11_Chart_LegendItems;
+                xamlMember.Getter = get_9_Chart_LegendItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.LegendStyle":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "LegendStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_12_Chart_LegendStyle;
-                xamlMember.Setter = set_12_Chart_LegendStyle;
+                xamlMember.Getter = get_10_Chart_LegendStyle;
+                xamlMember.Setter = set_10_Chart_LegendStyle;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.LegendTitle":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "LegendTitle", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_Chart_LegendTitle;
-                xamlMember.Setter = set_13_Chart_LegendTitle;
+                xamlMember.Getter = get_11_Chart_LegendTitle;
+                xamlMember.Setter = set_11_Chart_LegendTitle;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.PlotAreaStyle":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "PlotAreaStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_14_Chart_PlotAreaStyle;
-                xamlMember.Setter = set_14_Chart_PlotAreaStyle;
+                xamlMember.Getter = get_12_Chart_PlotAreaStyle;
+                xamlMember.Setter = set_12_Chart_PlotAreaStyle;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.Palette":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "Palette", "System.Collections.ObjectModel.Collection`1<Windows.UI.Xaml.ResourceDictionary>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_15_Chart_Palette;
-                xamlMember.Setter = set_15_Chart_Palette;
+                xamlMember.Getter = get_13_Chart_Palette;
+                xamlMember.Setter = set_13_Chart_Palette;
                 break;
             case "WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart.TitleStyle":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("WinRTXamlToolkit.Controls.DataVisualization.Charting.Chart");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "TitleStyle", "Windows.UI.Xaml.Style");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_16_Chart_TitleStyle;
-                xamlMember.Setter = set_16_Chart_TitleStyle;
+                xamlMember.Getter = get_14_Chart_TitleStyle;
+                xamlMember.Setter = set_14_Chart_TitleStyle;
                 break;
             case "PhoneApp.DetailPage.NavigationHelper":
                 userType = (global::PhoneApp.PhoneApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("PhoneApp.DetailPage");
                 xamlMember = new global::PhoneApp.PhoneApp_XamlTypeInfo.XamlMember(this, "NavigationHelper", "PhoneApp.Common.NavigationHelper");
-                xamlMember.Getter = get_17_DetailPage_NavigationHelper;
+                xamlMember.Getter = get_15_DetailPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }
